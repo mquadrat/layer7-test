@@ -1,50 +1,398 @@
 <l7:Bundle xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
             <l7:References>
                 <l7:Item>
-                    <l7:Name>a-sign-SSL-EV-07</l7:Name>
-                    <l7:Id>e5b6ad21b00bc8b6a427ebaf6e7120da</l7:Id>
-                    <l7:Type>TRUSTED_CERT</l7:Type>
-                    <l7:TimeStamp>2020-12-04T15:03:45.739Z</l7:TimeStamp>
+                    <l7:Name>Demo RV</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714a7e</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.272Z</l7:TimeStamp>
                     <l7:Resource>
-                        <l7:TrustedCertificate id="e5b6ad21b00bc8b6a427ebaf6e7120da" version="0">
-                            <l7:Name>a-sign-SSL-EV-07</l7:Name>
-                            <l7:CertificateData>
-<l7:IssuerName>CN%3DA-Trust-Root-07%2COU%3DA-Trust-Root-07%2CO%3DA-Trust+Ges.+f.+Sicherheitssysteme+im+elektr.+Datenverkehr+GmbH%2CC%3DAT</l7:IssuerName>
-<l7:SerialNumber>517459379</l7:SerialNumber>
-<l7:SubjectName>CN%3Da-sign-SSL-EV-07%2COU%3Da-sign-SSL-EV-07%2CO%3DA-Trust+Ges.+f.+Sicherheitssysteme+im+elektr.+Datenverkehr+GmbH%2CC%3DAT</l7:SubjectName>
-<l7:Encoded>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</l7:Encoded>
-                            </l7:CertificateData>
-                            <l7:Properties>
-<l7:Property key="revocationCheckingEnabled">
-    <l7:BooleanValue>true</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="trustAnchor">
-    <l7:BooleanValue>true</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="trustedAsSamlAttestingEntity">
-    <l7:BooleanValue>false</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="trustedAsSamlIssuer">
-    <l7:BooleanValue>false</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="trustedForSigningClientCerts">
-    <l7:BooleanValue>true</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="trustedForSigningServerCerts">
-    <l7:BooleanValue>true</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="trustedForSsl">
-    <l7:BooleanValue>false</l7:BooleanValue>
-</l7:Property>
-<l7:Property key="verifyHostname">
-    <l7:BooleanValue>true</l7:BooleanValue>
-</l7:Property>
-                            </l7:Properties>
-                        </l7:TrustedCertificate>
+                        <l7:Folder folderId="0000000000000000ffffffffffffec76" id="c461eb2585f7b0598771ee914b714a7e" version="0">
+                            <l7:Name>Demo RV</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Demo 01 ID Mismatch</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714ac1</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.272Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Folder folderId="c461eb2585f7b0598771ee914b714a7e" id="c461eb2585f7b0598771ee914b714ac1" version="0">
+                            <l7:Name>Demo 01 ID Mismatch</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Demo 02 Missing Folders</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714b64</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.272Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Folder folderId="c461eb2585f7b0598771ee914b714a7e" id="c461eb2585f7b0598771ee914b714b64" version="0">
+                            <l7:Name>Demo 02 Missing Folders</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Deeply</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714ba5</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.272Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Folder folderId="c461eb2585f7b0598771ee914b714b64" id="c461eb2585f7b0598771ee914b714ba5" version="0">
+                            <l7:Name>Deeply</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Nested</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714be6</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.272Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Folder folderId="c461eb2585f7b0598771ee914b714ba5" id="c461eb2585f7b0598771ee914b714be6" version="0">
+                            <l7:Name>Nested</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>Tree</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714c27</l7:Id>
+                    <l7:Type>FOLDER</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.272Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Folder folderId="c461eb2585f7b0598771ee914b714be6" id="c461eb2585f7b0598771ee914b714c27" version="0">
+                            <l7:Name>Tree</l7:Name>
+                        </l7:Folder>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>test</l7:Name>
+                    <l7:Id>0f15fb025fc6a54f24642c004fbef90d</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.286Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Service id="0f15fb025fc6a54f24642c004fbef90d" version="3">
+                            <l7:ServiceDetail folderId="c461eb2585f7b0598771ee914b714ac1" id="0f15fb025fc6a54f24642c004fbef90d" version="3">
+<l7:Name>test</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/test</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+            <l7:Verb>PUT</l7:Verb>
+            <l7:Verb>DELETE</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="policyRevision">
+        <l7:LongValue>2</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy" version="1">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:HardcodedResponse&gt;
+            &lt;L7p:Base64ResponseBody stringValue=&quot;VGVzdA==&quot;/&gt;
+            &lt;L7p:ResponseContentType stringValue=&quot;text/plain; charset=UTF-8&quot;/&gt;
+        &lt;/L7p:HardcodedResponse&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>TestService</l7:Name>
+                    <l7:Id>0f15fb025fc6a54f24642c004fbefb6d</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.291Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Service id="0f15fb025fc6a54f24642c004fbefb6d" version="1">
+                            <l7:ServiceDetail folderId="c461eb2585f7b0598771ee914b714ac1" id="0f15fb025fc6a54f24642c004fbefb6d" version="1">
+<l7:Name>TestService</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/test</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="policyRevision">
+        <l7:LongValue>1</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy" version="0">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue=&quot;I am a comment&quot;/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;SGVsbG8g&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;hello&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+        &lt;wsp:OneOrMore wsp:Usage=&quot;Required&quot;&gt;
+            &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+                &lt;L7p:ComparisonAssertion&gt;
+                    &lt;L7p:Expression1 stringValue=&quot;${request.http.header.Accept-Language}&quot;/&gt;
+                    &lt;L7p:Expression2 stringValue=&quot;es&quot;/&gt;
+                    &lt;L7p:Predicates predicates=&quot;included&quot;&gt;
+                        &lt;L7p:item binary=&quot;included&quot;&gt;
+                            &lt;L7p:RightValue stringValue=&quot;es&quot;/&gt;
+                        &lt;/L7p:item&gt;
+                    &lt;/L7p:Predicates&gt;
+                &lt;/L7p:ComparisonAssertion&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue=&quot;SG9sYSA=&quot;/&gt;
+                    &lt;L7p:VariableToSet stringValue=&quot;hello&quot;/&gt;
+                &lt;/L7p:SetVariable&gt;
+            &lt;/wsp:All&gt;
+        &lt;/wsp:OneOrMore&gt;
+        &lt;L7p:HardcodedResponse&gt;
+            &lt;L7p:Base64ResponseBody stringValue=&quot;VGhpcyBpcyB0aGUgcmVzcG9uc2U=&quot;/&gt;
+            &lt;L7p:ResponseContentType stringValue=&quot;text/plain; charset=UTF-8&quot;/&gt;
+        &lt;/L7p:HardcodedResponse&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>DemoService</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714b0a</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.294Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Service id="c461eb2585f7b0598771ee914b714b0a" version="3">
+                            <l7:ServiceDetail folderId="c461eb2585f7b0598771ee914b714ac1" id="c461eb2585f7b0598771ee914b714b0a" version="3">
+<l7:Name>DemoService</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/demoServirce</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+            <l7:Verb>PUT</l7:Verb>
+            <l7:Verb>DELETE</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="policyRevision">
+        <l7:LongValue>4</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy" version="3">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue=&quot;This is a comment&quot;/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;SGVsbG8g&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;hello&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+        &lt;wsp:OneOrMore wsp:Usage=&quot;Required&quot;&gt;
+            &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+                &lt;L7p:ComparisonAssertion&gt;
+                    &lt;L7p:Expression1 stringValue=&quot;${request.http.header.Accept-Language}&quot;/&gt;
+                    &lt;L7p:Expression2 stringValue=&quot;es&quot;/&gt;
+                    &lt;L7p:Predicates predicates=&quot;included&quot;&gt;
+                        &lt;L7p:item binary=&quot;included&quot;&gt;
+                            &lt;L7p:RightValue stringValue=&quot;es&quot;/&gt;
+                        &lt;/L7p:item&gt;
+                    &lt;/L7p:Predicates&gt;
+                &lt;/L7p:ComparisonAssertion&gt;
+                &lt;L7p:SetVariable&gt;
+                    &lt;L7p:Base64Expression stringValue=&quot;SG9sYSA=&quot;/&gt;
+                    &lt;L7p:VariableToSet stringValue=&quot;hello&quot;/&gt;
+                &lt;/L7p:SetVariable&gt;
+            &lt;/wsp:All&gt;
+        &lt;/wsp:OneOrMore&gt;
+        &lt;L7p:HardcodedResponse&gt;
+            &lt;L7p:Base64ResponseBody stringValue=&quot;VGhpcyBpcyB0aGUgcmVzcG9uc2U=&quot;/&gt;
+            &lt;L7p:ResponseContentType stringValue=&quot;text/plain; charset=UTF-8&quot;/&gt;
+        &lt;/L7p:HardcodedResponse&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>DemoService02</l7:Name>
+                    <l7:Id>c461eb2585f7b0598771ee914b714c6b</l7:Id>
+                    <l7:Type>SERVICE</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.295Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Service id="c461eb2585f7b0598771ee914b714c6b" version="3">
+                            <l7:ServiceDetail folderId="c461eb2585f7b0598771ee914b714c27" id="c461eb2585f7b0598771ee914b714c6b" version="3">
+<l7:Name>DemoService02</l7:Name>
+<l7:Enabled>true</l7:Enabled>
+<l7:ServiceMappings>
+    <l7:HttpMapping>
+        <l7:UrlPattern>/demoService02</l7:UrlPattern>
+        <l7:Verbs>
+            <l7:Verb>GET</l7:Verb>
+            <l7:Verb>POST</l7:Verb>
+            <l7:Verb>PUT</l7:Verb>
+            <l7:Verb>DELETE</l7:Verb>
+        </l7:Verbs>
+    </l7:HttpMapping>
+</l7:ServiceMappings>
+<l7:Properties>
+    <l7:Property key="internal">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="policyRevision">
+        <l7:LongValue>3</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="tracingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+    <l7:Property key="wssProcessingEnabled">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:ServiceDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy" version="2">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;/&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Service>
+                    </l7:Resource>
+                </l7:Item>
+                <l7:Item>
+                    <l7:Name>manifest</l7:Name>
+                    <l7:Id>78c13a1bcb7377a6d6ad0bbf55d43229</l7:Id>
+                    <l7:Type>POLICY</l7:Type>
+                    <l7:TimeStamp>2020-12-06T19:07:52.298Z</l7:TimeStamp>
+                    <l7:Resource>
+                        <l7:Policy guid="a2b15fcd-ea84-4fbd-8775-d3406fc94cda" id="78c13a1bcb7377a6d6ad0bbf55d43229" version="2">
+                            <l7:PolicyDetail folderId="c461eb2585f7b0598771ee914b714a7e" guid="a2b15fcd-ea84-4fbd-8775-d3406fc94cda" id="78c13a1bcb7377a6d6ad0bbf55d43229" version="2">
+<l7:Name>manifest</l7:Name>
+<l7:PolicyType>Include</l7:PolicyType>
+<l7:Properties>
+    <l7:Property key="revision">
+        <l7:LongValue>2</l7:LongValue>
+    </l7:Property>
+    <l7:Property key="soap">
+        <l7:BooleanValue>false</l7:BooleanValue>
+    </l7:Property>
+</l7:Properties>
+                            </l7:PolicyDetail>
+                            <l7:Resources>
+<l7:ResourceSet tag="policy">
+    <l7:Resource type="policy">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;wsp:Policy xmlns:L7p=&quot;http://www.layer7tech.com/ws/policy&quot; xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2002/12/policy&quot;&gt;
+    &lt;wsp:All wsp:Usage=&quot;Required&quot;&gt;
+        &lt;L7p:CommentAssertion&gt;
+            &lt;L7p:Comment stringValue=&quot;Policy Fragment: AAGM Manifest&quot;/&gt;
+        &lt;/L7p:CommentAssertion&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;djEuMQ==&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;version&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+        &lt;L7p:SetVariable&gt;
+            &lt;L7p:Base64Expression stringValue=&quot;TWFya3VzIE3DvGxsZXI=&quot;/&gt;
+            &lt;L7p:VariableToSet stringValue=&quot;author&quot;/&gt;
+        &lt;/L7p:SetVariable&gt;
+    &lt;/wsp:All&gt;
+&lt;/wsp:Policy&gt;
+</l7:Resource>
+</l7:ResourceSet>
+                            </l7:Resources>
+                        </l7:Policy>
                     </l7:Resource>
                 </l7:Item>
             </l7:References>
             <l7:Mappings>
-                <l7:Mapping action="NewOrExisting" srcId="e5b6ad21b00bc8b6a427ebaf6e7120da" srcUri="https://83b05dc54610:8443/restman/1.0/trustedCertificates/e5b6ad21b00bc8b6a427ebaf6e7120da" type="TRUSTED_CERT"/>
+                <l7:Mapping action="NewOrExisting" srcId="0000000000000000ffffffffffffec76" srcUri="https://83b05dc54610:8443/restman/1.0/folders/0000000000000000ffffffffffffec76" type="FOLDER">
+                    <l7:Properties>
+                        <l7:Property key="FailOnNew">
+                            <l7:BooleanValue>true</l7:BooleanValue>
+                        </l7:Property>
+                    </l7:Properties>
+                </l7:Mapping>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714a7e" srcUri="https://83b05dc54610:8443/restman/1.0/folders/c461eb2585f7b0598771ee914b714a7e" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714ac1" srcUri="https://83b05dc54610:8443/restman/1.0/folders/c461eb2585f7b0598771ee914b714ac1" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714b64" srcUri="https://83b05dc54610:8443/restman/1.0/folders/c461eb2585f7b0598771ee914b714b64" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714ba5" srcUri="https://83b05dc54610:8443/restman/1.0/folders/c461eb2585f7b0598771ee914b714ba5" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714be6" srcUri="https://83b05dc54610:8443/restman/1.0/folders/c461eb2585f7b0598771ee914b714be6" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714c27" srcUri="https://83b05dc54610:8443/restman/1.0/folders/c461eb2585f7b0598771ee914b714c27" type="FOLDER"/>
+                <l7:Mapping action="NewOrExisting" srcId="0f15fb025fc6a54f24642c004fbef90d" srcUri="https://83b05dc54610:8443/restman/1.0/services/0f15fb025fc6a54f24642c004fbef90d" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="0f15fb025fc6a54f24642c004fbefb6d" srcUri="https://83b05dc54610:8443/restman/1.0/services/0f15fb025fc6a54f24642c004fbefb6d" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714b0a" srcUri="https://83b05dc54610:8443/restman/1.0/services/c461eb2585f7b0598771ee914b714b0a" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="c461eb2585f7b0598771ee914b714c6b" srcUri="https://83b05dc54610:8443/restman/1.0/services/c461eb2585f7b0598771ee914b714c6b" type="SERVICE"/>
+                <l7:Mapping action="NewOrExisting" srcId="78c13a1bcb7377a6d6ad0bbf55d43229" srcUri="https://83b05dc54610:8443/restman/1.0/policies/78c13a1bcb7377a6d6ad0bbf55d43229" type="POLICY"/>
             </l7:Mappings>
         </l7:Bundle>
